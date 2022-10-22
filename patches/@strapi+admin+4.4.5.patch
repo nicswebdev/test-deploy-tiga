@@ -1,0 +1,35 @@
+diff --git a/node_modules/@strapi/admin/admin/src/pages/HomePage/index.js b/node_modules/@strapi/admin/admin/src/pages/HomePage/index.js
+index ae1448f..9c2a27f 100644
+--- a/node_modules/@strapi/admin/admin/src/pages/HomePage/index.js
++++ b/node_modules/@strapi/admin/admin/src/pages/HomePage/index.js
+@@ -67,7 +67,7 @@ const HomePage = () => {
+           <img alt="" aria-hidden src={Logo} />
+         </LogoContainer>
+         <Box padding={10}>
+-          <Grid>
++          {/* <Grid>
+             <GridItem col={8} s={12}>
+               <HomeHeader
+                 onCreateCT={handleClick}
+@@ -82,7 +82,7 @@ const HomePage = () => {
+             <GridItem col={4} s={12}>
+               <SocialLinks />
+             </GridItem>
+-          </Grid>
++          </Grid> */}
+         </Box>
+       </Main>
+     </Layout>
+diff --git a/node_modules/@strapi/admin/admin/src/translations/en.json b/node_modules/@strapi/admin/admin/src/translations/en.json
+index 128dff9..1fcd520 100644
+--- a/node_modules/@strapi/admin/admin/src/translations/en.json
++++ b/node_modules/@strapi/admin/admin/src/translations/en.json
+@@ -44,7 +44,7 @@
+   "Auth.form.rememberMe.label": "Remember me",
+   "Auth.form.username.label": "Username",
+   "Auth.form.username.placeholder": "e.g. Kai_Doe",
+-  "Auth.form.welcome.subtitle": "Log in to your Strapi account",
++  "Auth.form.welcome.subtitle": "Log in to your Test account",
+   "Auth.form.welcome.title": "Welcome to Strapi!",
+   "Auth.link.forgot-password": "Forgot your password?",
+   "Auth.link.ready": "Ready to sign in?",
